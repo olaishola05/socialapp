@@ -1,72 +1,81 @@
 .rightbar {
-    flex: 3.5;
+  flex: 3.5;
 }
 
 .rightbarWrapper {
-    padding: 20px 20px 0 0;
+  padding: 20px 20px 0 0;
 }
 
-.birthdayContainer{
-    display: flex;
-    align-items: center;
+.birthdayContainer {
+  display: flex;
+  align-items: center;
 }
 
-.birthdayImg{
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+.birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .birthdayText {
-    font-weight: 300;
-    font-size: 15px
+  font-weight: 300;
+  font-size: 15px;
 }
 
-.rightbarAd{
-    width: 100%;
-    border-radius: 10px;
-    margin: 30px 0;
+.rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
 }
 
-.rightbarTitle{
-    margin-bottom: 20px;
+.rightbarTitle {
+  margin-bottom: 20px;
 }
 .rightbarFriendList {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.rightbarFriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+.rightbarUserTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.rightbarProfileImgContainer{
-    margin-right: 10px;
-    position: relative;
+.rigthbarInfo {
+  margin-bottom: 30px;
+}
+.rigthbarInfoItem {
+  margin-bottom: 10px;
+}
+.rightbarInfoKey {
+  font-weight: 700;
+  margin-right: 15px;
+  color: #555;
 }
 
-.rightProfileImg {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
+.rightbarInfoValue {
+  font-weight: 300;
 }
 
-.rightbarOnline {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: limegreen;
-    position: absolute;
-    top: -2px;
-    right: 0;
-    border: 2px solid white;
+.rigthbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.rightbarUsername{
-    font-weight: 500;
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
+.rightbarFollwingImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
